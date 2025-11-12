@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BEER MART - 公式ビール通販</title>
+    <title>商品一覧 - BEER MART</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -26,48 +26,50 @@
     </nav>
 
     <main>
-      <!-- ヒーローバナー -->
-      <section class="hero">
+      <section class="products-list">
         <div class="container">
-          <h2>🍺 世界のプレミアムビールをオンラインで</h2>
-          <p>バドワイザー、コロナを公式通販でお届け</p>
-          <a href="products.html" class="btn-primary">今すぐ購入</a>
-        </div>
-      </section>
+          <h2>商品一覧</h2>
+          <div class="filter-bar">
+            <button class="filter-btn active">全て</button>
+            <button class="filter-btn">缶</button>
+            <button class="filter-btn">瓶</button>
+            <button class="filter-btn">ケース</button>
+          </div>
 
-      <!-- 人気商品 -->
-      <section class="popular-products">
-        <div class="container">
-          <h2>🔥 人気商品</h2>
           <div class="product-grid">
             <div class="product-card">
               <img
                 src="https://via.placeholder.com/250x200/FFD700/000000?text=Budweiser"
-                alt="バドワイザー"
+                alt="バドワイザー 缶"
               />
-              <h3>バドワイザー 350ml 缶</h3>
-              <p class="price">¥2,580（24本入）</p>
+              <h3>バドワイザー 350ml缶 24本</h3>
+              <p class="price">¥2,580</p>
+              <p class="desc">アメリカ生まれのプレミアムビール</p>
               <button class="btn-cart">カートに追加</button>
             </div>
+
             <div class="product-card">
               <img
                 src="https://via.placeholder.com/250x200/00CED1/FFFFFF?text=Corona"
-                alt="コロナ"
+                alt="コロナ 瓶"
               />
-              <h3>コロナ エキストラ 330ml 瓶</h3>
-              <p class="price">¥3,200（24本入）</p>
+              <h3>コロナ エキストラ 330ml瓶 24本</h3>
+              <p class="price">¥3,200</p>
+              <p class="desc">メキシコ生まれのプレミアムビール</p>
+              <button class="btn-cart">カートに追加</button>
+            </div>
+
+            <div class="product-card">
+              <img
+                src="https://via.placeholder.com/250x200/DC143C/FFFFFF?text=GiftSet"
+                alt="ギフトセット"
+              />
+              <h3>ビアギフトセット 3本</h3>
+              <p class="price">¥1,980</p>
+              <p class="desc">バドワイザー・コロナ・その他1本</p>
               <button class="btn-cart">カートに追加</button>
             </div>
           </div>
-        </div>
-      </section>
-
-      <!-- 特集 -->
-      <section class="feature">
-        <div class="container">
-          <h2>🍋 コロナの正しい飲み方</h2>
-          <p>ライムを入れるタイミングで味わいが変わる！？</p>
-          <a href="article1.html" class="btn-secondary">ブログで読む</a>
         </div>
       </section>
     </main>
