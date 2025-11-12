@@ -1,0 +1,21 @@
+/* リセット */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* ベース */
+body { font-family: Arial; line-height: 1.6; }
+
+/* ヘッダー */
+header { background: #333; color: #fff; padding: 1rem; }
+header h1 { font-size: 1.5rem; }
+header nav ul { list-style: none; display: flex; gap: 1rem; margin-top: 0.5rem; }
+
+/* メイン */
+main { padding: 2rem; max-width: 800px; margin: 0 auto; }
+
+/* フッター */
+footer { background: #333; color: #fff; text-align: center; padding: 1rem; margin-top: 2rem; }
+
+/* レスポンシブ */
+@media (max-width: 600px) {
+  header nav ul { flex-direction: column; }
+}
